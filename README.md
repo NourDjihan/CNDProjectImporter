@@ -4,4 +4,8 @@ Is a small project dedicated to creating a model of an external/interior project
 ## To Install this project:
 
 ``` Smalltalk 
+Metacello new
+  baseline: 'CNDProjectImporter';
+  repository: 'github://NourDjihan/CNDProjectImporter/src';
+  load
 ```
